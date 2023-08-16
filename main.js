@@ -3,7 +3,7 @@ var canvas = new fabric.Canvas('myCanvas');
 
 function newImage()
 {
-	fabric.Image.fromURL('BirthdayImage.jpg', function(img){
+	fabric.Image.fromURL('BirthdayImage.jpg', function(Img){
         blockImageObject = Img;
 
         blockImageObject.scaleToWidth(700);
